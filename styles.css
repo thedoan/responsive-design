@@ -20,7 +20,13 @@
 	height: 80px;
 }
 .header {
-	background-color: #B2D6FF;
+	height: auto;
+	justify-content: inherit;
+	align-items: inherit;
+}
+.photo img {
+	width: 100%;
+	display: block;
 }
 .content {
 	background-color: #EAEDF0;
@@ -37,6 +43,10 @@
 }
 .feature-3 {
 	background-color: #C8C6FA;
+}
+.illustration img {
+	width: 100%;
+	display: block;
 }
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -75,3 +85,4 @@
 		order: 2;
 	}
 }
+
